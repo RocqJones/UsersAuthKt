@@ -9,17 +9,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.UsersAuthKt">
-        <activity android:name=".users.ProfileActivity"></activity>
-        <activity android:name=".users.ForgotPasswordActivity" />
-        <activity android:name=".users.CreateAccountActivity" />
-        <activity android:name=".users.LoginActivity">
+        <activity
+            android:name=".users.ProfileActivity"
+            android:label="@string/usr_profile"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".users.ForgotPasswordActivity"
+            android:label="Forgot Password"
+            android:parentActivityName=".users.LoginActivity" />
+        <activity
+            android:name=".users.CreateAccountActivity"
+            android:label="Create Account" />
+        <activity android:name=".users.LoginActivity" android:label="Login">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
+        <activity android:name=".MainActivity" android:label="Home"/>
     </application>
 
 </manifest>
