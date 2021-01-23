@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "17458234428",
+    "project_id": "ktusersauth",
+    "storage_bucket": "ktusersauth.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:17458234428:android:bd648bb9ec6d8d81f16f39",
+        "android_client_info": {
+          "package_name": "com.intoverflown.usersauthkt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "17458234428-89du9j8nodj7drh3pfohfjv1v78a5l9q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlbU8QFAhYNT1XuAkGnG48Rxi458NQ89M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "17458234428-89du9j8nodj7drh3pfohfjv1v78a5l9q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

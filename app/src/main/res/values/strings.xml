@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">UsersAuth Kt</string>
+
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="login_title">Login</string>
+    <string name="create_act">Create Account</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="request_password_reset_email">Request Password Reset Email</string>
+    <string name="logout">LogOut</string>
+    <string name="profile">Profile</string>
+    <string name="first_name_profile">First Name :</string>
+    <string name="last_name_profile">Last Name :</string>
+    <string name="user_email_profile">User Email :</string>
+    <string name="email_verified">Email Verified :</string>
+    <string name="profile_pic">Profile pic</string>
+</resources>
